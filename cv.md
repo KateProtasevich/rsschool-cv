@@ -13,7 +13,7 @@ This course is a challenge for myself, opportunity of self-realization in intell
 * Programming languages and technologies: HTML, CSS,  JavaScript (theoretical knowledge).  
 * Other skills: SolidWorks, AutoCad, Adobe Photoshop, Altium Designer.
 ## Experience
-* Completed html-pages on the course "Web-design + xHTML, CSS". Some examples of my self-education results you can see here.
+* Completed html-pages on the course "Web-design + xHTML, CSS". Some examples of my self-education results you can see [here](https://kateprotasevich.github.io/pages_examples/).
 * 7-year experience as a electronics engineer.
 ## Education
 * 2011 - "Web-design + xHTML, CSS" course.
