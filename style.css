@@ -60,3 +60,37 @@ p.occupation {
   font-size: 20px;
   color: #6997a6;
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column-left {
+    min-width: 300px;
+    padding: 20px; 
+  }
+
+  .column-right {
+    padding: 20px; 
+  }
+
+  section h2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #437483, #9fb2b8);
+    background-color: #6997a6;
+    border-radius: 3%;
+  }
+
+  section:nth-of-type(n+2) h2 {
+    margin-top: 20px;
+  
+    
+  }
+  
