@@ -6,3 +6,57 @@ body,
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #838788;
+}
+
+a {
+  color: #838788;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background: linear-gradient(to right, #494f4f, gray);
+  background-color: #494f4f;
+  border-radius: 3%;
+}
+
+.profile-img {
+  margin: 20px 5px 20px 20px;
+  border-radius: 50%;
+}
+
+header h1 {
+  margin-bottom: 5px;
+
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px #6997a6;
+}
+
+div.profile {
+  margin-left: 10%;
+}
+
+p.occupation {
+  font-size: 20px;
+  color: #6997a6;
+}
