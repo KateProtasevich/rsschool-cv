@@ -90,7 +90,96 @@ main {
 
   section:nth-of-type(n+2) h2 {
     margin-top: 20px;
-  
-    
   }
+
+  .contact ul {
+    line-height: 20px;
+  }
+
+  .contact li {
+  padding-left: 25px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  }
+
+  .contact-phone {
+  background-image: url(images/phone.png);
+}
+
+.contact-mail {
+  background-image: url(images/mail.png);
+}
+
+.contact-skype {
+  background-image: url(images/skype.png);
+}
+
+.contact-github {
+  background-image: url(images/github.png);
+}
+
+.contact-location {
+  background-image: url(images/location.png);
+}
+
+section dl {
+  display: flex;
+  flex-direction: row;
+}
+
+.languages dt {
+  width: 80px;
+  font-weight: 700;
+}
+
+.hobbies li {
+  line-height: 18px;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+.summary {
+  line-height: 20px;
+}
+
+.education dl,
+.experience dl,
+.skills dl {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.education dt,
+.experience dt,
+.skills dt {
+  min-width: 120px;
+  width: 120px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.education dd,
+.experience dd,
+.skills dd {
+  line-height: 20px;
+}
+
+.contact a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.experience a {
+  font-weight: 700;
+}
+
+.experience a:hover {
+  color: black;
+}
   
