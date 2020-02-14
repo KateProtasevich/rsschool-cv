@@ -7,6 +7,16 @@ body,
   padding: 0;
 }
 
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+  }
+
+  header {
+    display: flex;
+  }
+}
+
 body {
   font-size: 14px;
   font-family: Helvetica, sans-serif;
@@ -28,7 +38,6 @@ ul {
 }
 
 header {
-  display: flex;
   flex-direction: row;
   align-items: center;
 
@@ -62,7 +71,6 @@ p.occupation {
 }
 
 main {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
