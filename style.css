@@ -1,0 +1,193 @@
+body,
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+  }
+
+  header {
+    display: flex;
+  }
+}
+
+body {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #838788;
+}
+
+a {
+  color: #838788;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  flex-direction: row;
+  align-items: center;
+
+  background: linear-gradient(to right, #494f4f, gray);
+  background-color: #494f4f;
+  border-radius: 3%;
+}
+
+.profile-img {
+  margin: 20px 5px 20px 20px;
+  border-radius: 50%;
+}
+
+header h1 {
+  margin-bottom: 5px;
+
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px #6997a6;
+}
+
+div.profile {
+  margin-left: 10%;
+}
+
+p.occupation {
+  font-size: 20px;
+  color: #6997a6;
+}
+
+main {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column-left {
+    min-width: 300px;
+    padding: 20px; 
+  }
+
+  .column-right {
+    padding: 20px; 
+  }
+
+  section h2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #437483, #9fb2b8);
+    background-color: #6997a6;
+    border-radius: 3%;
+  }
+
+  section:nth-of-type(n+2) h2 {
+    margin-top: 20px;
+  }
+
+  .contact ul {
+    line-height: 20px;
+  }
+
+  .contact li {
+  padding-left: 25px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  }
+
+  .contact-phone {
+  background-image: url(images/phone.png);
+}
+
+.contact-mail {
+  background-image: url(images/mail.png);
+}
+
+.contact-skype {
+  background-image: url(images/skype.png);
+}
+
+.contact-github {
+  background-image: url(images/github.png);
+}
+
+.contact-location {
+  background-image: url(images/location.png);
+}
+
+section dl {
+  display: flex;
+  flex-direction: row;
+}
+
+.languages dt {
+  width: 80px;
+  font-weight: 700;
+}
+
+.hobbies li {
+  line-height: 18px;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+.summary {
+  line-height: 20px;
+}
+
+.education dl,
+.experience dl,
+.skills dl {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.education dt,
+.experience dt,
+.skills dt {
+  min-width: 120px;
+  width: 120px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.education dd,
+.experience dd,
+.skills dd {
+  line-height: 20px;
+}
+
+.contact a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.experience a {
+  font-weight: 700;
+}
+
+.experience a:hover {
+  color: black;
+}
+  
